@@ -135,7 +135,7 @@ echo "			</tr>\n";
 ?>
 		</table>
 		<br>
-		<pre>courtesy of <a href='https://www.rideindego.com' target='_blank'>Indego</a></pre><br>
-		<pre><a href='https://github.com/ericoc/indego.ericoc.com/blob/master/indego.php' target='_blank'>view source @ github</a> | <a href='https://github.com/ericoc/indego-php-lib' target='_blank'>my Indego PHP library</a></pre>
+		<pre>courtesy of <a href='https://www.rideindego.com/' target='_blank'>Indego</a></pre><br>
+		<pre><a href='https://github.com/ericoc/indego.ericoc.com/' target='_blank'>view source @ github</a> | <a href='https://github.com/ericoc/indego-php-lib/' target='_blank'>my Indego PHP library</a></pre>
 	</body>
 </html>
