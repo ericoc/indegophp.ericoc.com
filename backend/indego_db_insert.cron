@@ -1,0 +1,2 @@
+# Run the script to hit the Indego API and insert the information to MySQL every 10 minutes, clearing the log on every run
+*/10 * * * *	php /srv/indego/backend/db_insert.php > /srv/indego/backend/cron_log 2>&1
