@@ -19,7 +19,7 @@ As of November 2016, I have recorded about 4.5 million rows totaling ~180MB and 
 
 More Information
 ----------------
-* [My Indego PHP library](https://github.com/ericoc/indego-php-lib)
-* [Highcharts] to generate the historical graphs
+* [Official Philadelphia Indego Bike Share website](https://www.rideindego.com/)
+* [Highcharts](http://www.highcharts.com/) to generate the historical graphs
 * [The actual Indego API](https://www.rideindego.com/stations/json/), a GeoJSON file
 * [OpenDataPhilly description of the Indego API](https://www.opendataphilly.org/dataset/bike-share-stations)
