@@ -18,7 +18,6 @@ if ( (!isset($_GET['kioskId'])) || (!is_numeric($_GET['kioskId'])) || (strlen($_
 		<script type="text/javascript" src="/js/exporting.js"></script>
 		<script type="text/javascript" src="/indapi.php?kioskId=<?php echo $kioskId; ?>"></script>
 		<link href="/indego.css" rel="stylesheet" type="text/css">
-		<style type="text/css">${demo.css}</style>
 	</head>
 	<body>
 		<div id="bikesgraph"></div>
