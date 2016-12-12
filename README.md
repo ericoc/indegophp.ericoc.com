@@ -12,13 +12,13 @@ I was inspired by the awesome graphs showing the availability of bikes at each s
 Background
 ----------
 
-I have been running [this script](https://github.com/ericoc/indego.ericoc.com/blob/master/backend/db_insert.php) as a [cron job](https://github.com/ericoc/indego.ericoc.com/blob/master/backend/indego_db_insert.cron) on my personal server.
-It has been collecting data from the Philly Indego Bike Share API and storing that data to a [local MySQL database](https://github.com/ericoc/indego.ericoc.com/blob/master/backend/indego_api_db.sql) for just over a year.
-I can tell you how many bikes and empty docks were at each bike-share station in Philadelphia (at the 10 minute intervals, anyways) since November of last year (2015).
-As of November 2016, I have recorded about 4.5 million rows totaling ~180MB and I will soon hit 50,000 records for each bike-share station!
+I have been running [this script](https://github.com/ericoc/indego.ericoc.com/blob/master/backend/db_insert.php) as a [cron job](https://github.com/ericoc/indego.ericoc.com/blob/master/backend/indego_db_insert.cron) on my personal server. It has been collecting data from the Philly Indego Bike Share API and storing that data to a [local MySQL database](https://github.com/ericoc/indego.ericoc.com/blob/master/backend/indego_api_db.sql) for just over a year. I can tell you how many bikes and empty docks were at each bike-share station in Philadelphia (at the 10 minute intervals, anyways) since November of last year (2015). As of November 2016, I have recorded about 4.5 million rows totaling ~180MB and I will soon hit 50,000 records for each bike-share station!
+
+With the data that I have recorded from the Indego API, I use [Highcharts](http://www.highcharts.com/) to generate historical graphs of each station. I even got to write [this blog post](http://www.highcharts.com/blog/250-tracking-bike-share-usage-in-philadelphia) (for the Highcharts blog)!
 
 More Information
 ----------------
+* [Highcharts Blog](http://www.highcharts.com/blog)
 * [Official Philadelphia Indego Bike Share website](https://www.rideindego.com/)
 * [Highcharts](http://www.highcharts.com/) to generate the historical graphs
 * [The actual Indego API](https://www.rideindego.com/stations/json/), a GeoJSON file
