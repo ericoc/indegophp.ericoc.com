@@ -20,6 +20,5 @@ More Information
 ----------------
 * [Highcharts Blog](http://www.highcharts.com/blog)
 * [Official Philadelphia Indego Bike Share website](https://www.rideindego.com/)
-* [Highcharts](http://www.highcharts.com/) to generate the historical graphs
-* [The actual Indego API](https://www.rideindego.com/stations/json/), a GeoJSON file
+* [The actual Indego API](https://www.rideindego.com/stations/json/) (a GeoJSON file)
 * [OpenDataPhilly description of the Indego API](https://www.opendataphilly.org/dataset/bike-share-stations)
