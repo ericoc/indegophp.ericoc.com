@@ -105,7 +105,7 @@ foreach ($stations as $station) {
 	echo "				<td>$station->bikesAvailable</td>\n";								// Number of bikes available at the station
 	echo "				<td>" . make_graph($station->bikesAvailable, $station->docksAvailable, $emoji) . "</td>\n";	// Generate and show pretty graph of bikes vs. docks at the station with or without emojis
 	echo "				<td>$station->docksAvailable</td>\n";								// Number of docks available at the station
-	echo "				<td class='graphcol'><a target='popup' onclick=\"window.open('/chart.php?kioskId=" . $station->kioskId . "','popup','width=800,height=500'); return false;\">📊</a></td>\n";	// Link to popup graph of bike availability for the station for the past 7 days
+	echo "				<td class='graphcol'><a href='#" . $station->kioskId . "' target='popup' onclick=\"window.open('/chart.php?kioskId=" . $station->kioskId . "','popup','width=800,height=500'); return false;\">📊</a></td>\n";	// Link to popup graph of bike availability for the station for the past 7 days
 	echo "			</tr>\n";
 
 	// Add the current stations counts to the totals
