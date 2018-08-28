@@ -49,7 +49,7 @@ function make_graph($bikes, $docks, $emoji = false) {
 		<h1><a href="https://indego.ericoc.com/">Indego Bikes</a> <a href="https://xn--h78h.ericoc.com/">🚲</a></h1><br>
 
 		<form method="get">
-			<input type="text" name="search"> <i>(i.e. "<a href="/?search=fairmount">fairmount</a>" or "<a href="/?search=19107">19107</a>")</i>
+			<input type="text" name="search"> <i>(e.g. "<a href="/?search=fairmount">fairmount</a>" or "<a href="/?search=19107">19107</a>")</i>
 			<input type="submit" value="Search!">
 		</form><br>
 
