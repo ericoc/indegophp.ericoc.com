@@ -41,9 +41,20 @@ function make_graph($bikes, $docks, $emoji = false) {
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<link href="/indego.css" rel="stylesheet" type="text/css">
-		<title>Indego Bikes!</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="Eric O'Callaghan">
+        <meta name="description" content="Philadelphia Indego Bikes">
+        <meta name="keywords" content="ericoc, indego, philadelphia, philly, bikes, bikeshare, bicycles">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Philadelphia Indego Bikes">
+        <meta property="og:title" content="Indego Bicycle Stations">
+        <meta property="og:description" content="A quick and easy way to see available bicycles and docks throughout all Philadlephia Indego bicycle-share stations.">
+        <meta property="og:url" content="https://indego.ericoc.com/">
+        <meta property="og:image" content="https://indego.ericoc.com/icon.png">
+        <link href="/indego.css" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" href="/icon.png">
+        <link rel="apple-touch-icon" href="/icon.png">
+        <title>Indego Bikes!</title>
 	</head>
 	<body>
 		<h1><a href="https://indego.ericoc.com/">Indego Bikes</a> <a href="https://xn--h78h.ericoc.com/">🚲</a></h1><br>
