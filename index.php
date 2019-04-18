@@ -102,9 +102,9 @@ if ($_SERVER['HTTP_HOST'] == 'xn--h78h.ericoc.com') {
 foreach ($stations as $station) {
 
 	// Skip the station if its kiosk is not active?
-	if ($station->kioskPublicStatus !== 'Active') {
-		continue;
-	}
+//	if ($station->kioskPublicStatus !== 'Active') {
+//		continue;
+//	}
 
 	// Get the current stations address with zip code for hover-text
 	$address = $station->addressStreet . ' (' . $station->addressZipCode . ')';
